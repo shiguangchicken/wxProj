@@ -1,0 +1,39 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;*/
+  justify-content: space-between;
+  padding: 100rpx 0;
+  box-sizing: border-box;
+} 
+.fruit-container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /*padding: 200rpx 0;*/
+  box-sizing: border-box;
+}
+.im{width: 100%;height: 100%;}
+.fruit-name{text-align: center;margin: 40rpx;}
+.fruit-upper{margin: auto;}
+.fruit-imge{width: 700rpx;height: 600rpx;}
+.fruit-info{}
+.fruit-lower{margin:30rpx 60rpx;}
+.fruit-price{color: red;display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 2rem;
+  align-items: center;
+}
+.fruit-describ{margin:30rpx;}
+#button{width: 300rpx;height: 90rpx;}
+.inpute{border: 1rpx solid black;color: blue;width: 100rpx;margin: 0 100rpx;}
+.td {
+    width:40%;
+    justify-content: center;
+    text-align: center;
+}
+.fruit-price input{border: 1rpx solid darkslategrey;width: 200rpx;}

@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<import src="listFruit.wxml" />
+<view class="container">
+ 
+  <block wx:for="{{fruit}}">
+      <template is="{{item.sale ? 'listFruit':''}}" data="{{item,index}}"/>
+  </block>
+  <button class='checkout' bindtap='checkouut'>结算</button>
+</view>

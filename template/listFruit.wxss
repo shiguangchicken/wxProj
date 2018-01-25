@@ -1,0 +1,17 @@
+.fruit-container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+.im{width: 100rpx;height: 100rpx;}
+.fruit-upper{margin: 5rpx}
+.fruit-imge{width: 100rpx;height: 100rpx;}
+.fruit-info{}
+.fruit-lower{}
+.fruit-price{}
+.fruit-describ{}
+#button{}

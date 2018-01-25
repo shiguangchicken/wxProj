@@ -1,0 +1,22 @@
+<template name="listFruit">
+  <view class='fruit-container'>
+    <view class='fruit-upper'>
+      <view class='fruit-imge'>
+        <image src='../../images/apple.jpg' class='im'></image>
+      </view>
+      <view class='fruit-info'>
+        <view class='fruit-name'>{{item.name}}</view>
+        <view class='fruit-remark'>备注</view>
+      </view>
+    </view>
+    <view class='fruit-lower'>
+      <view class='fruit-price'>单价:   {{item.price[0].money}}/{{item.price[0].danwei}}</view>
+      <view class='fruit-price'>单价:   {{item.price[1].money}}/{{item.price[1].danwei}}</view>
+      <view class='fruit-price'>单价:   {{item.price[2].money}}/{{item.price[2].danwei}}</view>
+      <view class='fruit-describ'>水果描述</view>
+      <form class='fruit-addShoppingCar' bindsubmit='fruit-addShoppingCar'>
+        <button bindtap='#' id="button">添加购物车</button>
+      </form>
+    </view>
+  </view>
+</template>
